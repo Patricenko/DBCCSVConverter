@@ -2,7 +2,8 @@
 ## Set up
 ### 1. Install libraries ```os```, ```subprocess``` and ```sys``` (all of them should be among global libraries)
 ### 2. In terminal, cd to directory converter
-### 3. In run.py change your web adress to your git repository with all dbcs (line no. 4)
+### 3. In run.py change your web adress to your git repository with all dbcs (line no. 4):
+```subprocess.run(['git', 'clone', 'https://gitlab.com/newadress', 'dbc'])```
 ### 4. Initialize commands:
 ```python run.py update``` -> ```python run.py csv```
 ## Usage:
