@@ -4,7 +4,8 @@
 ### 2. In terminal, cd to directory converter
 ### 3. In run.py change your web adress to your git repository with all dbcs (line no. 4):
 ```subprocess.run(['git', 'clone', 'https://gitlab.com/newadress', 'dbc'])```
-### 4. Initialize commands:
+### 4. Change git global.user so it matches your git repo
+### 5. Initialize commands:
 ```python run.py update``` -> ```python run.py csv```
 ## Usage:
 ### Convert dbc to csv for inDB usage:
