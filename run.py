@@ -1,7 +1,7 @@
 import sys, subprocess, os
 def update():
     subprocess.call("rmdir /S /Q dbc", shell=True)
-    subprocess.run(['git', 'clone', 'https://gitlab.com/prokne/bradavice-online-dbc.git', 'dbc'])
+    subprocess.run(['git', 'clone', 'https://gitlab.com/not/for/you.git', 'dbc'])
 def convertToCsv(dbc=None):
     if dbc:
         os.remove(f"dbc/{dbc}.dbc.csv") if os.path.exists(f"dbc/{dbc}.dbc.csv") else None
